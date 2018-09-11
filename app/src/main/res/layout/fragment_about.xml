@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/spacing_normal_16"
+        android:layout_marginLeft="@dimen/spacing_normal_16"
+        android:layout_marginRight="@dimen/spacing_normal_16"
+        android:layout_marginStart="@dimen/spacing_normal_16"
+        android:layout_marginTop="@dimen/spacing_small_8"
+        android:fontFamily="@string/roboto_medium"
+        android:text="@string/copyright"
+        android:textColor="@color/greyBlack"
+        android:textSize="@dimen/font_medium_16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/buildVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/spacing_normal_16"
+        android:layout_marginLeft="@dimen/spacing_normal_16"
+        android:layout_marginRight="@dimen/spacing_normal_16"
+        android:layout_marginStart="@dimen/spacing_normal_16"
+        android:layout_marginTop="@dimen/spacing_small_8"
+        android:fontFamily="@string/roboto_medium"
+        android:textColor="@color/greyBlack"
+        android:textSize="@dimen/font_medium_16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/copyright"
+        tools:text="Версия 1.1.1.1" />
+</android.support.constraint.ConstraintLayout>

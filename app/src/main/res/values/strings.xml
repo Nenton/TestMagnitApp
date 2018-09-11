@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TestMagnitApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="timetable">Расписание</string>
+    <string name="about_app">О приложении</string>
+
+    <string name="roboto_regular">sans-serif</string>
+    <string name="roboto_light">sans-serif-light</string>
+    <string name="roboto_medium">sans-serif-medium</string>
+    <string name="roboto_thin">sans-serif-thin</string>
+
+    <string name="country_label">Страна</string>
+    <string name="district_label">Район</string>
+    <string name="city_label">Город</string>
+    <string name="region_label">Регион</string>
+    <string name="edit_date">Изменить</string>
+    <string name="send_station_hint">Станция отправления</string>
+    <string name="arrive_station_hint">Станция прибытия</string>
+    <string name="copyright">© 2018 Nenton</string>
+</resources>

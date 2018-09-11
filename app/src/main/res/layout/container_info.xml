@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/countryTitleLabel"
+        style="@style/TextLabel"
+        android:text="@string/country_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/countryTitle"
+        style="@style/TextInfo"
+        app:layout_constraintBottom_toTopOf="@+id/countryTitleLabel"
+        app:layout_constraintStart_toEndOf="@+id/countryTitleLabel"
+        app:layout_constraintTop_toBottomOf="@+id/countryTitleLabel"
+        tools:text="Страна" />
+
+    <TextView
+        android:id="@+id/districtLabel"
+        style="@style/TextLabel"
+        android:text="@string/district_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countryTitleLabel" />
+
+    <TextView
+        android:id="@+id/district"
+        style="@style/TextInfo"
+        app:layout_constraintBottom_toTopOf="@+id/districtLabel"
+        app:layout_constraintStart_toEndOf="@+id/districtLabel"
+        app:layout_constraintTop_toBottomOf="@+id/districtLabel"
+        tools:text="Страна" />
+
+    <TextView
+        android:id="@+id/cityLabel"
+        style="@style/TextLabel"
+        android:text="@string/city_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/districtLabel" />
+
+    <TextView
+        android:id="@+id/city"
+        style="@style/TextInfo"
+        app:layout_constraintBottom_toTopOf="@+id/cityLabel"
+        app:layout_constraintStart_toEndOf="@+id/cityLabel"
+        app:layout_constraintTop_toBottomOf="@+id/cityLabel"
+        tools:text="Страна" />
+
+    <TextView
+        android:id="@+id/regionLabel"
+        style="@style/TextLabel"
+        android:text="@string/region_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cityLabel" />
+
+    <TextView
+        android:id="@+id/region"
+        style="@style/TextInfo"
+        app:layout_constraintBottom_toTopOf="@+id/regionLabel"
+        app:layout_constraintStart_toEndOf="@+id/regionLabel"
+        app:layout_constraintTop_toBottomOf="@+id/regionLabel"
+        tools:text="Страна" />
+
+</android.support.constraint.ConstraintLayout>
